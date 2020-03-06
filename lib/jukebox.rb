@@ -60,10 +60,10 @@ def play(songs)
 			end
 			i += 1
 		end
-		# if input.to_i == 0
-		# 	invalid_command
-		# elsif input.to_i > songs.count && input != 'exit'
-		# 	invalid_command
-		# end
+		if input.to_i == 0
+			invalid_command
+		elsif input.to_i > songs.count && input != 'exit'
+			invalid_command
+		end
 
 end
