@@ -31,7 +31,9 @@ end
 def gets_input
   gets.strip
 end
-
+def welcome_prompt
+	puts "Please enter a command:"
+end
 def invalid_command
   puts "Invalid input, please try again"
 end
